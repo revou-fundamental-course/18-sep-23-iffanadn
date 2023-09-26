@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30%;
+    padding-block: 1rem;
+    border-bottom: 2px solid black;
+}
+
+.nav-list {
+    border: 2px solid black;
+}
+
+.nav-list ul {
+    display: flex;
+    padding-left: 0;
+    gap: 2rem;
+    margin: 15px;
+    list-style: none;
+
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 150px;
+    padding: 0 50px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: rgb(233, 233, 233);
+    width: 800px;
+}
+
+.profile-left {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 60px;
+    gap: 1rem;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+}
+
+.content-right form {
+    margin-top: 40px;
+}
+
+.content-right label,
+input,
+select {
+    margin: 10px 0px;
+}
+
+.content-right input,
+select,
+button {
+    height: 50px;
+    width: 400px;
+    margin-bottom: 20px;
+    border: 1px groove gray;
+    border-radius: 5px;
+}
+
+input[placeholder] {
+    padding-left: 30px;
+}
+
+button {
+    color: white;
+    background-color: black;
+}
